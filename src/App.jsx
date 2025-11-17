@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Booking from './components/Booking'
 import Gallery from './components/Gallery'
+import Marquee from './components/Marquee'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main className="pt-16">
         <Hero />
+        <Marquee />
         <Services />
         <Booking />
         <Gallery />
